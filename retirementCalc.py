@@ -27,7 +27,7 @@ def retirement_calc(capital,months,exponential,monthlyDeposit,depositYearly):
     exponential = exponential / 12
     depositMonths = depositYearly * 12
 
-    for _ in my_list:
+    for num in my_list:
         capital = (capital * exponential) + capital # Interest baring
         depositMonths = depositMonths - 1 # Once we hit 0 and below we no longer add in monthly Deposit
         if depositMonths >= 0:

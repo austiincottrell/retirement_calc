@@ -1,4 +1,4 @@
-#Calculator to figure out how much expontential money you will make when retired
+#Calculator to figure out how much money you will have by retirement
 
 import locale
 locale.setlocale(locale.LC_ALL, 'en_US')
